@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container{
+            width: 1000px;
+            height: 500px;
+            border: 5px solid red;
+            margin: auto;
+            display: flex;
+            /* justify-content: space-around; */
+            justify-content: space-between;
+        }
+        .logo{
+            /* border: 1px solid blue; */
+        }
+        .menus{
+            /* border: 1px solid purple; */
+        }
+        .menus > ul {
+            display: flex;
+            gap: 5px;
+        }
+        .menus > ul > li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.logoai.com/oss/icons/2021/12/02/EoLJeYhT6YPfd26.png" alt="" width="50">
+        </div>
+        <div class="menus">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Gallery</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
