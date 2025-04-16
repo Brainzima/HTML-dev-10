@@ -1,0 +1,70 @@
+body{
+    height: 100vh;
+    background: linear-gradient( to top left, rgb(221, 221, 221), gray);
+    background-repeat: no-repeat;
+}
+
+.main{
+    width: 80vw;
+    height: 90vh;
+    background: linear-gradient(rgb(207, 175, 175), rgb(101, 101, 155) );
+    margin: auto;
+}
+.heading{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.heading > h1{
+
+}
+
+.pricing-card{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.single-card{
+    width: 200px;
+    height: auto;
+    background-color: rgb(216, 216, 215);
+}
+.card-header{
+    background-color: rgb(49, 159, 223);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.card-header > h1, h3{
+    margin: 0;
+    
+}
+
+.card-body{
+    text-align: center;
+    padding: 10px;
+}
+.card-body > ul {
+    list-style: none;
+    padding: 0;
+}
+.card-body > ul > li{
+    margin: 10px;
+}
+.fa-circle-check{
+    color: green;
+}
+.fa-circle-xmark{
+    color: red;
+}
+.card-body > button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(28, 105, 177);
+    border-radius: 5px;
+    color: white;
+}
