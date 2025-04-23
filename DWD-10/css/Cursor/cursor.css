@@ -1,0 +1,170 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    width: 80vw;
+    height: 90vh;
+    background-color: antiquewhite;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: orange;
+}
+
+.box:hover {
+    background-color: orangered;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.help {
+    cursor: help;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.default {
+    cursor: default;
+}
+
+.none {
+    cursor: none;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.text {
+    cursor: text;
+}
+
+.vertical-text {
+    cursor: vertical-text;
+}
+
+.alias {
+    cursor: alias;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.move {
+    cursor: move;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.grab {
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: grabbing;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.n-resize {
+    cursor: n-resize;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
+
+.s-resize {
+    cursor: s-resize;
+}
+
+.w-resize {
+    cursor: w-resize;
+}
+
+.ne-resize {
+    cursor: ne-resize;
+}
+
+.nw-resize {
+    cursor: nw-resize;
+}
+
+.se-resize {
+    cursor: se-resize;
+}
+
+.sw-resize {
+    cursor: sw-resize;
+}
+
+.ew-resize {
+    cursor: ew-resize;
+}
+
+.ns-resize {
+    cursor: ns-resize;
+}
+
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}
