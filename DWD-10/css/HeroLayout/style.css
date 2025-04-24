@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 80vw;
+    height: 90vh;
+    background: linear-gradient(to top left, rgb(111, 111, 221), rgb(124, 68, 187), rgb(80, 80, 209));
+    margin: auto;
+}
+.header{
+    /* border: 1px solid red; */
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    /* border: 1px solid orange; */
+    height: 50px;
+}
+.menu{
+    /* border: 1px solid white; */
+    height: 50px;
+}
+.menu > ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.cta{
+    /* border: 1px solid orange; */
+    height: 50px;
+    color: white;
+}
+
+.section{
+    /* border: 1px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.one{
+    /* border: 1px solid orange; */
+    /* height: 50px; */
+    margin: 50px;
+}
+.one > h1{
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one > p{
+    color: white;
+    font-size: 0.75rem;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.one > button{
+    width: 150px;
+    height: 40px;
+    border:none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.tr{
+    background-color: rgba(44, 44, 216, 0.445);
+    color: white;
+}
+.two{
+    /* border: 1px solid white; */
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+}
+.two > img{
+    width: 250px;
+    height: 300px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.three{
+    /* border: 1px solid orange; */
+    height: 50px;
+    margin: 50px;
+    color: white;
+}
