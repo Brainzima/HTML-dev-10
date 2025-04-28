@@ -1,0 +1,64 @@
+.uplift{
+    color: red;
+}
+.uplift:visited{
+    color: chartreuse;
+}
+.uplift:hover{
+    color: blue;
+}
+.uplift:active{
+    color: aqua;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 25px solid red;
+}
+.box:hover{
+    border-color: aqua;
+    background-color: red;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 25px solid red;
+}
+.box2:hover{
+    border-radius: 50%;
+    transition: .5s;
+}
+
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 25px solid red;
+    border-radius: 50%;
+}
+.box3:hover{
+    border-radius: 1%;
+    transition: .5s;
+}
+
+p{
+    font-size: 3rem;
+    background-color: rgb(187, 162, 128);
+}
+p:hover{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 5s;
+    background-color: azure;
+}
+.rexvel{
+    color: red;
+}
+.rexvel:visited{
+    color: chartreuse;
+}
