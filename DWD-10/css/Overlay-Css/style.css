@@ -1,0 +1,29 @@
+.box{
+    width: 500px;
+    height:500px;
+    background-color: aquamarine;
+    margin: auto;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:50px;
+    left: 550px;
+    border-radius: 50%;
+}
+
+.chat-logo{
+    width: 50px;
+    height: 50px;
+    /* background-color: rebeccapurple; */
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right:0;
+}
+.chat-logo > a >img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

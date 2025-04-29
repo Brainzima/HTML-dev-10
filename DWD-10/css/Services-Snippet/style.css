@@ -1,0 +1,44 @@
+body{
+    background-color: aliceblue;
+    color: white;
+}
+.container{
+    width: 80vw;
+    height: 90vh;
+    background-color: black;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.cards{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    width: 250px;
+    height: 180px;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+.card:hover{
+    background-color: orange;
+    color: white;
+}
+.title{
+    margin: 0;
+    color: orange;
+}
+.title:hover{
+    color: white;
+}
