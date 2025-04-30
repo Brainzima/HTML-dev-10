@@ -1,0 +1,93 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: girgit 5s infinite;
+}
+
+@keyframes girgit {
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: orangered;
+    }
+    100%{
+        background-color: aqua;
+    }
+}
+
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: girgit2 1s infinite;
+}
+
+@keyframes girgit2 {
+    0%{
+        background-color: aqua;
+        border-radius: 0;
+    }
+    25%{
+        background-color: red;
+        border-radius: 25%;
+    }
+    50%{
+        background-color: blue;
+        border-radius: 50%;
+    }
+    75%{
+        background-color: orangered;
+        border-radius: 25%;
+    }
+    100%{
+        background-color: aqua;
+        border-radius: 0;
+    }
+}
+
+
+.box3{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: girgit3 10s infinite;
+}
+
+@keyframes girgit3 {
+    0%{
+        background-image: url(https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D);
+        background-size: cover;
+        border-radius: 0;
+    }
+    25%{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s);
+        border-radius: 25%;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(https://media.istockphoto.com/id/1171319990/photo/beautiful-girl-taking-photos-with-retro-camera.jpg?s=612x612&w=0&k=20&c=vgt1M5BsYn5SEhBORdRASif1Yeq5yM6-0x55YRU4qrQ=);
+        border-radius: 50%;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(https://media.istockphoto.com/id/1205489399/photo/curly-haired-photographer-woman-holding-her-camera-in-the-park-and-shooting.jpg?s=612x612&w=is&k=20&c=_RJ0dCSTA4ROjqXdkvgRKkwnQnFfh_4ziMK9hKh9ZTQ=);
+        border-radius: 25%;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D);
+        border-radius: 0;
+        background-size: cover;
+    }
+}
