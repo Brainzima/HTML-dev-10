@@ -1,0 +1,19 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: 5px solid red;
+    padding: 50px;
+    /* new properties  */
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x: scroll; */
+    overflow-y: scroll;
+}
+.chhota-box{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border: 5px solid blue;
+}
