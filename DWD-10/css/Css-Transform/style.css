@@ -1,0 +1,25 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    border-top: 2px solid red;
+    /* new properties  */
+    /* transform: rotate(20deg); */
+    /* transform: scale(5); */
+    /* transform: skew(30deg); */
+    /* transform: skewY(30deg); */
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    background: url(https://cubanvr.com/wp-content/uploads/2023/07/ai-image-generators.webp);
+    background-size: cover;
+    transition: .3s;
+}
+
+.card:hover{
+    /* transform: rotate(5deg); */
+    transform: skew(5deg);
+}
