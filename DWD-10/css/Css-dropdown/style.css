@@ -1,0 +1,31 @@
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.menu-btn{
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+.dropdown-menu{
+    display: none;
+}
+.dropdown-menu a{
+    display: block;
+    background-color: rgb(198, 183, 223);
+    text-decoration: none;
+    padding: 5px;
+}
+.dropdown-menu a:hover{
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
