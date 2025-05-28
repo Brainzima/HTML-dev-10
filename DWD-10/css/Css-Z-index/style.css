@@ -1,0 +1,58 @@
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.blue{
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+}
+.red{
+    background-color: red;
+    top: 75px;
+    left: 75px;
+
+}
+.green{
+    background-color: green;
+    top: 50px;
+    left: 50px;
+}
+.purple{
+    background-color: purple;
+    top: 25px;
+    left: 25px;
+}
+.orange{
+    background-color: orange;
+}
+.one{
+    z-index: 1;
+}
+.two{
+    z-index: 2;
+}
+.three{
+    z-index: 3;
+}
+.four{
+    z-index: 4;
+}
+.five{
+    z-index: 5;
+}
+
+
+/* real project example css */
+.bg-image{
+    position: absolute;
+    filter: brightness(50%);
+    z-index: -1;
+}
+.overlay-text{
+    font-size: 1.5rem;
+    color:white;
+    text-shadow: 2px 2px 5px red;
+    padding: 50px;
+}
