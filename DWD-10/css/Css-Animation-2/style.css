@@ -1,0 +1,52 @@
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    animation: tanimate 3s infinite;
+    animation-timing-function: ;
+}
+
+.ease{
+    animation-timing-function: ease;
+}
+.ease-in{
+    animation-timing-function: ease-in;
+}
+.ease-out{
+    animation-timing-function: ease-out;
+}
+.ease-in-out{
+    animation-timing-function: ease-in-out;
+    background-color: red;
+}
+.linear{
+    animation-timing-function: linear;
+    background-color: orange;
+}
+.step-start{
+    animation-timing-function: step-start;
+    background-color: purple;
+}
+.step-end{
+    animation-timing-function: step-end;
+    background-color: burlywood;
+}
+.cubic{
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: brown;
+}
+
+@keyframes tanimate {
+    0%{
+        margin: 0;
+    }
+    /* 40%{
+        margin-left: 500px;
+    }
+    75%{
+        margin-left: 800px;
+    } */
+    100%{
+        margin-left: 1200px;
+    }
+}
