@@ -1,0 +1,15 @@
+.box{
+    width:700px;
+    height:500px;
+    border: 2px ridge gray;
+    background-color: antiquewhite;
+    padding:20px;
+    text-align:justify;
+    overflow-y: scroll;
+    scrollbar-color: rgb(155, 79, 79) rgb(193, 214, 203);
+    scrollbar-width: thin;
+    
+}
+.text1{
+    writing-mode: vertical-lr;
+}
